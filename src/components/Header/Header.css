@@ -1,0 +1,10 @@
+.nav-link a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-weight: 700;
+}
+.nav-link a:hover{
+    background-color: blueviolet;
+    padding: 10px;
+}
