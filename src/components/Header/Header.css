@@ -7,4 +7,5 @@
 .nav-link a:hover{
     background-color: blueviolet;
     padding: 10px;
+    color: white;
 }
