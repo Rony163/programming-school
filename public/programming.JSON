@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "https://mkdigitalmare.com/wp-content/uploads/2020/12/web_bg.png",
+        "name": "Web Design & Development",
+        "price": 10000
+    },
+    {
+        "id": 2,
+        "image": "https://www.trueconceptmarketing.com/wp-content/uploads/2017/12/graphic.png",
+        "name": "Graphics Design",
+        "price": 5000
+    },
+    {
+        "id": 3,
+        "image": "https://www.logzerotechnologies.com/wp-content/uploads/2015/11/banner-img.png",
+        "name": "Android App Development",
+        "price": 4500
+    },
+    {
+        "id": 4,
+        "image": "https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png",
+        "name": "React",
+        "price": 3000
+    },
+    {
+        "id": 5,
+        "image": "https://www.itweapons.com/wp-content/uploads/2021/04/bigstock-Side-View-Of-Hacker-Using-Comp-253465240.jpg",
+        "name": "Ethical Hacking",
+        "price": 3900
+    },
+    {
+        "id": 6,
+        "image": "https://www.cloudways.com/blog/wp-content/uploads/Laravel-8.jpg",
+        "name": "Laravel (PHP Framework)",
+        "price": 3500
+    },
+    {
+        "id": 7,
+        "image": "https://storage.ning.com/topology/rest/1.0/file/get/8667507462?profile=RESIZE_710x",
+        "name": "JAVA (Object Oriented)",
+        "price": 3000
+    },
+    {
+        "id": 8,
+        "image": "https://images.martechadvisor.com/images/uploads/content_images/seo_5c3dfd5b6c5fc.jpg",
+        "name": "SEO & Outsourcing",
+        "price": 6500
+    },
+    {
+        "id": 9,
+        "image": "https://elements-cover-images-0.imgix.net/732fcf02-b43b-4a8c-a61c-c660f819b92b?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=a2f485b0b94cffcbd2713024fc0422a0",
+        "name": "Freelancing & Outsourcing",
+        "price": 4700
+    }
+]
