@@ -8,4 +8,4 @@ In the project directory, you can run:
 
 * You can check lot of courses
 * You can bye courses with reasonable price
-* Afer finish the course you can get a job
+* After finish the course you can get a job
