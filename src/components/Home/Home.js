@@ -9,7 +9,7 @@ const Home = () => {
     // console.log(courses);
     return (
         <div>
-            <Row xs={1} md={3} lg={4} className="g-4">
+            <Row xs={2} md={3} lg={4} className="g-4">
                 {
                     courses.slice(0, 4).map(course => <HomeDetails
                         key={course.id}

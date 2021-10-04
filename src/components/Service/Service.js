@@ -5,7 +5,7 @@ const Service = (props) => {
     const { name, image, price } = props.course;
     return (
         <Col className="p-3">
-            <Card style={{ height: "300px" }}>
+            <Card className="bg-success text-white shadow-lg" style={{ height: "300px" }}>
                 <Card.Img variant="top w-75 h-50 mx-auto p-2" src={image} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
