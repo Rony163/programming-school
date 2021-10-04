@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <div>
                 <Chart></Chart>
-                <button className="mb-2" onClick={handleBack}>Back To Home Page</button>
+                <button className="mb-2 btn-regular" onClick={handleBack}>Back To Home Page</button>
             </div>
         </div>
     );

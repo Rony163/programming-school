@@ -1,8 +1,14 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { useHistory } from 'react-router';
+import './service.css';
 
 const Service = (props) => {
+    const history = useHistory();
+    const handleNotFound = () => {
+        history.push('/notfound');
+    }
     const { name, image, price } = props.course;
     return (
         <Col className="p-3">
@@ -13,7 +19,7 @@ const Service = (props) => {
                     <Card.Text>
                         Course Price: {price}
                     </Card.Text>
-                    <Button>Details</Button>
+                    <Button onClick={handleNotFound} className="btn-regular">Details</Button>
                 </Card.Body>
             </Card>
         </Col>

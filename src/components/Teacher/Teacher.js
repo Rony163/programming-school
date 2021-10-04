@@ -6,8 +6,8 @@ import { useHistory } from 'react-router';
 const Teacher = (props) => {
     const { name, education, image } = props.teacher;
     const history = useHistory();
-    const handleHome = () => {
-        history.push('/home');
+    const handleNotFound = () => {
+        history.push('/notfound');
     }
     return (
         <Col>
@@ -18,7 +18,7 @@ const Teacher = (props) => {
                     <Card.Text>
                         {education}
                     </Card.Text>
-                    <Button onClick={handleHome}>Go Back Home</Button>
+                    <Button className="btn-regular" onClick={handleNotFound}>Details</Button>
                 </Card.Body>
             </Card>
         </Col>

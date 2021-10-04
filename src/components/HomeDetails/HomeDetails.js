@@ -1,9 +1,14 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const HomeDetails = (props) => {
-    console.log(props)
+    // console.log(props)
+    const history = useHistory();
+    const handleHome = () => {
+        history.push('/notfound');
+    }
     const { name, image, price } = props.course;
     return (
         <Col className="p-3">
@@ -14,7 +19,7 @@ const HomeDetails = (props) => {
                     <Card.Text>
                         Course Price: {price}
                     </Card.Text>
-                    <Button>Details</Button>
+                    <Button onClick={handleHome} className="btn-regular">Details</Button>
                 </Card.Body>
             </Card>
         </Col>
