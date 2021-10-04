@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
+import Teachers from './components/Teachers/Teachers';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/services">
             <Services></Services>
+          </Route>
+          <Route path="/teachers">
+            <Teachers></Teachers>
           </Route>
           <Route exact path="/">
             <Home></Home>

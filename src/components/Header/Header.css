@@ -1,11 +1,11 @@
 .nav-link a{
     text-decoration: none;
     margin: 10px;
-    color: white;
     font-weight: 700;
+    color:white;
 }
 .nav-link a:hover{
-    background-color: blueviolet;
+    background-color: rgb(128, 128, 128);
     padding: 10px;
     color: white;
 }

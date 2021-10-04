@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "image": "https://mkdigitalmare.com/wp-content/uploads/2020/12/web_bg.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6l0cAzqjDPtDrOO4MW_NUJzoTQFw7aSU0g&usqp=CAU",
         "name": "Web Design & Development",
         "price": 10000
     },
     {
         "id": 2,
-        "image": "https://www.trueconceptmarketing.com/wp-content/uploads/2017/12/graphic.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7G29oqfBdtuszNcyC5J07HH7r0MNRAIVJ5w&usqp=CAU",
         "name": "Graphics Design",
         "price": 5000
     },
     {
         "id": 3,
-        "image": "https://www.logzerotechnologies.com/wp-content/uploads/2015/11/banner-img.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRonm2VDXzzFvFyoX9j71m_s7VgFdw5uIFhQ&usqp=CAU",
         "name": "Android App Development",
         "price": 4500
     },
     {
         "id": 4,
-        "image": "https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOEIXpZcXR-N8OH_q0Dj2ou6Vr1U69t4kM-w&usqp=CAU",
         "name": "React",
         "price": 3000
     },
