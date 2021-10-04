@@ -3,6 +3,7 @@ import { useHistory } from 'react-router';
 import Chart from '../Chart/Chart';
 
 const About = () => {
+    // Using History
     const history = useHistory();
     const handleBack = () => {
         history.push('/home')

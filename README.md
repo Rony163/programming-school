@@ -1,11 +1,11 @@
-# Bangladesh Drama Industry
+# Programming School
 
-This project was bootstrapped and vanila css with [Create React App](https://react-bangladesh-drama-industry-by-rony.netlify.app/).
+This project was bootstrapped and vanila css with [Create React App](https://rony-programming-school.netlify.app/).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-* You can check bangladeshi actors
-* You can see their information
-* You can also hire them
+* You can check lot of courses
+* You can bye courses with reasonable price
+* Afer finish the course you can get a job

@@ -5,6 +5,7 @@ import { useHistory } from 'react-router';
 
 const HomeDetails = (props) => {
     // console.log(props)
+    // No URL for this reason its going to not found page
     const history = useHistory();
     const handleHome = () => {
         history.push('/notfound');
