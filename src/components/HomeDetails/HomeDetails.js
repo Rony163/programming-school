@@ -5,11 +5,11 @@ const HomeDetails = (props) => {
     console.log(props)
     const { name, image, price } = props.course;
     return (
-        <Col>
-            <Card>
-                <Card.Img variant="top" src={image} />
+        <Col className="p-3">
+            <Card style={{ height: "300px" }}>
+                <Card.Img variant="top w-75 h-50 mx-auto p-2" src={image} />
                 <Card.Body>
-                    <Card.Title>Course Name: {name}</Card.Title>
+                    <Card.Title>{name}</Card.Title>
                     <Card.Text>
                         Course Price: {price}
                     </Card.Text>
