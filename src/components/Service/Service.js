@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const Service = (props) => {
-    const { name, image, price } = props.service;
+    const { name, image, price } = props.course;
     return (
         <Col className="p-3">
             <Card style={{ height: "300px" }}>
